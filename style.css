@@ -10,9 +10,9 @@ body {
 }
 
 body {
-  min-width: 1700px;
+  min-width: 1360px;
   font-family: "Gilroy", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   background-color: #0B1D26;
 }
@@ -23,8 +23,8 @@ p {
 
 h1 {
   font-family: "Chronicle Display", serif;
-  font-size: 88px;
-  margin: 50px 0 60px;
+  font-size: 78px;
+  margin: 40px 0 50px;
 }
 
 h2 {
@@ -47,7 +47,7 @@ h4 {
 }
 
 .main-header {
-  padding: 70px 80px 0;
+  padding: 50px 80px 0;
   background-image: url('img/bg.png');
   background-size: cover;
   background-position: top center;
@@ -161,9 +161,9 @@ h4 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  max-width: 930px;
+  max-width: 810px;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .header-info h1 {
@@ -185,6 +185,10 @@ h4 {
   display: flex;
   align-items: center;
   color: #fff;
+}
+
+.btn-header:hover {
+  color: #FBD784;
 }
 
 .header-info a{
@@ -223,8 +227,8 @@ h4 {
 }
 
 .main-block .sct-image img {
-  width: 566px;
-  height: 720px;
+  width: 480px;
+  height: auto;
 }
 
 .main-info {
@@ -251,7 +255,7 @@ h4 {
 }
 
 .btn-main:hover {
-  opacity: 0.6;
+  transform: translate(5px, 0);
 }
 
 .hiking-essentials .main-info::before,
@@ -298,13 +302,17 @@ h4 {
 .footer-menu > ul > li > a {
   display: inline-block;
   padding: 8px 0;
-  margin-bottom: 19px;
+  margin-bottom: 10px;
   color: #ffffff;
   text-decoration: none;
 }
 
+.footer-menu a {
+  transition: all 200ms ease;
+}
+
 .footer-menu a:hover {
-  text-decoration: underline;
+  color: #FBD784;
 }
 
 .footer-copyright {
@@ -312,7 +320,6 @@ h4 {
 }
 
 p.footer-slogan {
-  font-weight: bold;
   max-width: 300px;
   flex: 1;
 }
