@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 1%
+*/
+
 html,
 body {
   margin: 0;
@@ -92,8 +99,6 @@ h4 {
 }
 
 .header-menu > ul > li > a:hover {
-  -webkit-transform: translate(0px, -2px);
-  -ms-transform: translate(0px, -2px);
   transform: translate(0px, -2px);
   color: #fbd784;
 }
@@ -263,7 +268,7 @@ h4 {
 .where-to-go .main-info::before{
   position: absolute;
   font-size: 240px;
-  font-weight: bold;
+  font-weight: 700;
   top: -125px;
   left: -150px;
   opacity: 0.1;
@@ -302,7 +307,7 @@ h4 {
 .footer-menu > ul > li > a {
   display: inline-block;
   padding: 8px 0;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -343,15 +348,16 @@ p.footer-slogan {
 
 .footer-block-2 {
   display: flex;
-  flex: 0 0 38%;
+  flex: 0 0 32%;
   justify-content: space-between;
 }
 
 .footer-menu-2 {
-  flex-basis: 35%;
+  flex-basis: 40%;
 }
 
 .footer-menu h4.menu-label {
   margin-top: 0;
+  margin-bottom: 20px;
   color: #FBD784;
 }
