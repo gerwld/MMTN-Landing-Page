@@ -1,4 +1,4 @@
-# MMTN-Landing-Page
+# MMTN Landing Page
 Fourth Landing Page created for grow up my skills in Flexbox
 
 <b>Specification:</b><br>
