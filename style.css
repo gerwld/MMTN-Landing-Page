@@ -30,7 +30,9 @@ body {
 }
 
 body {
-  min-width: 1600px;
+  min-width: 1500px;
+  max-width: 1700px;
+  margin: 0 auto;
   font-family: "Gilroy", sans-serif;
   font-size: 16px;
   color: #fff;
@@ -207,11 +209,11 @@ img.vg {
 
 .navbar-header {
   display: flex;
-  max-width: 1600px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0 80px;
 }
 
 .pre-title {
@@ -290,7 +292,7 @@ img.vg {
 
 #get-started {
   position: absolute;
-  margin-top: 100px;
+  margin-top: -100px;
 }
 
 .get-started {
