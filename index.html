@@ -7,6 +7,7 @@
   <meta name="description" content="Template what i was created for grow up my skills.">
   <link rel="stylesheet" href="font-face.css">
   <link rel="stylesheet" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 </head>
 <body>
   <div class="site-wrapper">
@@ -121,6 +122,14 @@
       </div>
   </footer>
   <script src="script.js"></script>
+  <script>
+    $(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+   });
+ </script>
+  </div>
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
   </div>
 </body>
 </html>
