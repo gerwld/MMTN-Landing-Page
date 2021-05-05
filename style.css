@@ -30,13 +30,10 @@ body {
 }
 
 body {
-  min-width: 1500px;
-  max-width: 1600px;
-  margin: 0 auto;
   font-family: "Gilroy", sans-serif;
   font-size: 16px;
   color: #fff;
-  background-color: #0B1D26;
+  background-color: rgba(3, 18, 26, 0.8);
 }
 
 p {
@@ -69,6 +66,14 @@ h4 {
   margin: 0 auto;
 }
 
+.site-wrapper {
+  max-width: 1920px;
+  min-width: 1610px;
+  margin: 0 auto;
+  box-shadow: 28px 28px 80px 0 rgba(11, 29, 38, 0.4);
+  background-color: #0B1D26;
+}
+
 .main-content {
   z-index: 101;
   flex: 1 1 100%;
@@ -83,8 +88,6 @@ h4 {
   height: 130vh;
   overflow: hidden;
   display: flex;
-  /* padding: 50px 80px 0; */
-
   background-color: #0B1D26;
 }
 
@@ -339,7 +342,7 @@ img.vg {
 }
 
 .btn-main:hover {
-  transform: translate(5px, 0);
+  transform: translate(8px, 0);
 }
 
 .hiking-essentials .main-info::before,
