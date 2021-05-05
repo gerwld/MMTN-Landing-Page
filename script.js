@@ -22,8 +22,8 @@ function scrollLoop() {
     yScrollPosition = window.scrollY;
 
     setTranslate(0, yScrollPosition * -0.2, vg);
-    setTranslate(0, yScrollPosition * -0.5, mg);
-    setTranslate(0, yScrollPosition * -1.6, hg);
+    setTranslate(0, yScrollPosition * -0.4, mg);
+    setTranslate(0, yScrollPosition * -1.0, hg);
     setTranslate(0, yScrollPosition * 0.5, headerInfo);
     headerInfo.style.opacity = 1 - (yScrollPosition / 800);
 
