@@ -37,7 +37,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
+    }, 1200);
 });
 
 //smooth scroll iOS Safari
@@ -67,5 +67,5 @@ function scrollAnchors(e, respond = null) {
             window.history.pushState('', '', targetID);
             clearInterval(checkIfDone);
         }
-    }, 100);
+    }, 1000);
 }
