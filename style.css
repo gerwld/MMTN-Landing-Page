@@ -632,7 +632,7 @@ img.vg {
 }
 
 /* Средние девайсы («таблетки», >= 768px) */
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .header-info {
     align-items: flex-end;
   }
