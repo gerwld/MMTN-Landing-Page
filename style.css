@@ -95,7 +95,7 @@ h4 {
 .main-header::before {
   content: "";
   position: absolute;
-  bottom: -2px;
+  bottom: -3px;
   width: 100%;
   height: 350px;
   background: linear-gradient(to top, #0B1D26, #0B1D26 4%, rgba(11, 29, 38, 0.9) 27%, rgba(11, 29, 38, 0.8) 39%, transparent);
@@ -118,7 +118,7 @@ h4 {
   left: 0;
   width: 100%;
   height: auto;
-  object-fit: cover;
+
   pointer-events: none;
 }
 
@@ -205,13 +205,16 @@ img.vg {
   height: 24px;
 }
 
+.account-menu {
+  margin-left: auto;
+}
+
 .navbar-header {
   display: flex;
-  margin: 0 auto;
+  margin: 0 80px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 80px;
 }
 
 .pre-title {
@@ -241,10 +244,9 @@ img.vg {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
   max-width: 810px;
   margin: 0 auto;
-  padding-top: 150px;
+  margin-top: 150px;
   z-index: 90;
 }
 
@@ -334,7 +336,7 @@ img.vg {
 .main-info {
   flex: 0 1 42.5%;
   position: relative;
-  margin-left: 150px;
+  margin: 0 auto;
 }
 
 .btn-main {
@@ -435,6 +437,7 @@ p.footer-slogan {
 
 .footer-block-1 {
   flex-shrink: 0;
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -443,7 +446,7 @@ p.footer-slogan {
 
 .footer-block-2 {
   display: flex;
-  flex: 0 0 480px;
+  flex: 0 1 480px;
   justify-content: space-between;
 }
 
@@ -531,22 +534,8 @@ p.footer-slogan {
 
 /* mediaqueries for mobile & tablet */
 
-@media (max-width: 576px) {
-
-}
-
-/* Средние девайсы («таблетки», >= 768px) */
-@media (max-width: 768px) {
-
-}
-
-/* Большие девайсы (десктопы, >= 992px) */
-@media (max-width: 992px) {
-
-}
-
 /* Экстрабольшие девайсы (большие десктопы, >= 1200px) */
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 993px) {
 
   h2 {
     font-size: 52px;
@@ -571,5 +560,119 @@ p.footer-slogan {
   .main-header {
     max-height: 900px;
   }
+
+}
+
+/* Большие девайсы (десктопы, >= 992px) */
+@media (max-width: 992px) {
+.main-content .main-block{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-header {
+  max-height: 900px;
+}
+
+.header-info {
+  max-width: 100%;
+  margin: 100px 80px 0 90px;
+}
+
+.btn-header {
+  font-size: 21px;
+}
+
+.footer-block-1 {
+  font-size: 0.9em;
+}
+
+.main-info {
+  flex: 0 1 70%;
+  margin: 0;
+  margin-top: 80px;
+}
+
+.sct-image {
+  flex: 0 1 70%;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: -1;
+}
+.sct-image img {
+  flex-shrink: 0;
+   min-width: 100%;
+   min-height: 100%;
+}
+
+.header-info a {
+  align-self: flex-end;
+}
+
+.get-started > .sct-image img {
+  align-self: flex-end;
+}
+
+img.mg {
+  top: 450px;
+}
+
+img.vg {
+  top: 530px;
+  left: -20%;
+  width: 130%;
+}
+
+.main-header > img.hg {
+  height: 100%;
+}
+}
+
+/* Средние девайсы («таблетки», >= 768px) */
+@media (max-width: 768px) {
+  .header-info {
+    align-items: flex-end;
+  }
+
+    .main-header {
+      height: 100vh;
+      max-height: 1024px;
+    }
+    .navbar-header,
+    .header-info {
+      margin: 0 30px;
+    }
+  .header-info {
+    margin-top: 120px;
+  }
+  .header-info h1 {
+    font-size: 75px;
+  }
+
+  .main-header nav > ul > li > a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  img.vg {
+    top: 600px;
+    width: 205%;
+    left: -20%;
+  }
+  img.mg {
+    width: 125%;
+    left: -5%;
+    top: 490px;
+  }
+  .main-info,
+  .sct-image {
+    flex-basis: 80%;
+  }
+
+}
+
+@media (max-width: 576px) {
 
 }
