@@ -5,6 +5,7 @@
 * Browsers: > 1%
 */
 
+
 html,
 body {
   margin: 0;
@@ -14,12 +15,6 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-*::-moz-selection{
-  font-family: "Gilroy", sans-serif;
-  background-color: transparent;
-  color: #FBD784;
 }
 
 
