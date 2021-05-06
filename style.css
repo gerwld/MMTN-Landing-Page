@@ -206,10 +206,6 @@ img.vg {
   height: 24px;
 }
 
-.account-menu {
-  margin-left: auto;
-}
-
 .navbar-header {
   display: flex;
   margin: 0 80px;
@@ -639,7 +635,7 @@ img.vg {
   }
 
     .main-header {
-      height: 170vh;
+      height: 120vh;
       max-height: 1024px;
     }
     .navbar-header,
@@ -671,5 +667,12 @@ img.vg {
   .sct-image {
     flex-basis: 80%;
   }
+
+}
+
+@media screen and (max-width: 520px) and (min-width: 320px) {
+.account-menu {
+  margin-left: auto;
+}
 
 }
