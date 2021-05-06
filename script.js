@@ -21,7 +21,7 @@ function scrollLoop() {
     xScrollPosition = window.scrollX;
     yScrollPosition = window.scrollY;
 
-    setTranslate(0, yScrollPosition * -0.2, vg);
+    setTranslate(0, yScrollPosition * -0.1, vg);
     setTranslate(0, yScrollPosition * -0.4, mg);
     setTranslate(0, yScrollPosition * -1.0, hg);
     setTranslate(0, yScrollPosition * 0.5, headerInfo);
