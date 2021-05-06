@@ -685,7 +685,7 @@ img.vg {
   }
 
   .header-info h1 {
-      margin: 30px 0;
+      margin: 10px 0;
       font-size: 42px;
       line-height: 67px;
   }
@@ -742,7 +742,7 @@ img.vg {
   }
 
   img.vg {
-      top: 420px;
+      top: 400px;
       width: 215%;
       left: -49%;
   }
@@ -750,7 +750,7 @@ img.vg {
   img.mg {
       width: 235%;
       left: -45%;
-      top: 340px;
+      top: 260px;
   }
 
   .btn-header:hover {
