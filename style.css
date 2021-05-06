@@ -629,7 +629,7 @@ img.vg {
 
 .main-header > img.hg {
   width: auto;
-  height: 100%;
+  height: 130%;
 }
 }
 
@@ -639,19 +639,19 @@ img.vg {
     align-items: flex-end;
   }
 
-    .main-header {
-      height: 120vh;
-      max-height: 1024px;
-    }
-    .navbar-header,
-    .header-info {
-      margin: 0 30px;
-    }
+  .main-header {
+    height: 120vh;
+    max-height: 1024px;
+  }
+  .navbar-header,
+  .header-info {
+    margin: 0 30px;
+  }
   .header-info {
     margin-top: 120px;
   }
   .header-info h1 {
-    font-size: 75px;
+    font-size: 55px;
   }
 
   .main-header nav > ul > li > a {
@@ -683,117 +683,147 @@ img.vg {
 
 }
 
-@media screen and (max-width: 520px) and (min-width: 375px) {
+@media screen and (max-width: 520px) {
 
   h2 {
     font-size: 44px;
   }
 
-.main-footer {
-  flex-wrap: wrap;
+  .header-info h1 {
+      margin: 30px 0;
+      font-size: 42px;
+      line-height: 67px;
+  }
+
+  .main-footer {
+    flex-wrap: wrap;
+  }
+
+  .navbar-header,
+  .header-info {
+    margin: 0 15px;
+  }
+
+  .header-info {
+    margin-top: 40px;
+  }
+
+  .header-menu {
+    margin-top: 20px;
+    flex: 1 1 100%;
+  }
+
+  .header-menu ul {
+    justify-content: flex-end;
+  }
+
+  .main-header nav > ul > li > a {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .pre-title {
+    font-size: 13px;
+  }
+
+  .pre-title::before {
+    left: -65px;
+    top: calc(50% - 1.125px);
+    width: 52px;
+    height: 1.5px;
+  }
+  .btn-header {
+      font-size: 19px;
+  }
+
+  .main-header {
+      height: 110vh;
+      max-height: 780px;
+  }
+
+  .main-header::before {
+    height: 150px;
+  }
+
+  img.vg {
+      top: 450px;
+      width: 215%;
+      left: -49%;
+  }
+
+  img.mg {
+      width: 235%;
+      left: -45%;
+      top: 340px;
+  }
+
+  .btn-header:hover {
+    color: white;
+  }
+
+  .main-info, .sct-image {
+    flex-basis: 100%;
+  }
+
+  .hiking-essentials .main-info::before,
+  .get-started .main-info::before,
+  .where-to-go .main-info::before {
+    font-size: 200px;
+    top: -115px;
+    left: -40px;
+  }
+
+  .main-footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .footer-block-1 {
+    order: 1;
+    flex: 1;
+  }
+
+  .footer-block-2 {
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+
+  .footer-menu-1 {
+    flex-basis: 55%;
+  }
+
+  .footer-menu-2 {
+    flex-basis: 35%;
+  }
+
 }
 
-.navbar-header,
-.header-info {
-  margin: 0 15px;
-}
+@media screen and (max-width: 320px) {
 
-.header-info {
-  margin-top: 40px;
-}
+  body {
+    min-width: 320px;
+  }
 
-.header-menu {
-  margin-top: 20px;
-  flex: 1 1 100%;
-}
+  h1 {
+    font-size: 40px;
+  }
+  .header-info h1 {
+    margin: 24px 0;
+    font-size: 40px;
+    line-height: 53px;
+  }
 
-.header-menu ul {
-  justify-content: flex-end;
-}
+  .main-header > img.hg {
+    height: 130%;
+  }
 
-.main-header nav > ul > li > a {
-  margin: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
+  .hiking-essentials .sct-image {
+    justify-content: flex-start;
+  }
 
-.header-info h1 {
-    margin: 30px 0;
-    font-size: 50px;
-    line-height: 73px;
-}
+  .pre-title {
+    font-size: 12px;
+  }
 
-.pre-title {
-  font-size: 13px;
-}
-
-.pre-title::before {
-  left: -65px;
-  top: calc(50% - 1.125px);
-  width: 52px;
-  height: 1.5px;
-}
-.btn-header {
-    font-size: 19px;
-}
-
-.main-header {
-    height: 110vh;
-    max-height: 780px;
-}
-
-.main-header::before {
-  height: 150px;
-}
-
-img.vg {
-    top: 450px;
-    width: 215%;
-    left: -49%;
-}
-
-img.mg {
-    width: 235%;
-    left: -45%;
-    top: 340px;
-}
-
-.btn-header:hover {
-  color: white;
-}
-
-.main-info, .sct-image {
-  flex-basis: 100%;
-}
-
-.hiking-essentials .main-info::before,
-.get-started .main-info::before,
-.where-to-go .main-info::before {
-  font-size: 200px;
-  top: -115px;
-  left: -40px;
-}
-
-.main-footer {
-  padding-top: 20px;
-  padding-bottom: 60px;
-}
-
-.footer-block-1 {
-  order: 1;
-  flex: 1;
-}
-
-.footer-block-2 {
-  justify-content: space-around;
-  margin-bottom: 50px;
-}
-
-.footer-menu-1 {
-  flex-basis: 55%;
-}
-
-.footer-menu-2 {
-  flex-basis: 35%;
-}
 }
