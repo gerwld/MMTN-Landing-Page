@@ -753,6 +753,10 @@ img.vg {
       top: 265px;
   }
 
+  img.hg {
+    top: -100px;
+  }
+
   .btn-header:hover {
     color: white;
   }
