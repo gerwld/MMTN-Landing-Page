@@ -296,7 +296,7 @@ img.vg {
 
 .btn-header:hover .btn-icon {
   animation: bumping 0.7s;
-  animation-iteration-count: 1000;
+  animation-iteration-count: 5;
   animation-delay: 0.5s;
 }
 
