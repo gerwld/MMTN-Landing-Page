@@ -700,7 +700,7 @@ img.vg {
   }
 
   .header-info {
-    margin-top: 40px;
+    margin-top: 10px;
   }
 
   .header-menu {
@@ -734,7 +734,7 @@ img.vg {
 
   .main-header {
       height: 110vh;
-      max-height: 780px;
+      max-height: 750px;
   }
 
   .main-header::before {
@@ -742,7 +742,7 @@ img.vg {
   }
 
   img.vg {
-      top: 450px;
+      top: 420px;
       width: 215%;
       left: -49%;
   }
