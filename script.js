@@ -11,7 +11,7 @@ function scrollLoop() {
     let windowY = isNaN(window.scrollY) ? 0 : window.scrollY;
 
     setTranslate(0, document.querySelector(".vg"));
-    setTranslate(Math.floor(windowY / 2), headerInfo);
+    setTranslate(windowY / 2, headerInfo);
     headerInfo.style.opacity = 1 - (windowY / 800);
 }
 
