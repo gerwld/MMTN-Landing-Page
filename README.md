@@ -2,7 +2,7 @@
 Beautiful landing, created to improve skills in layout building. 
 
 ## Features: 
-- Created on Flexbox & grid Layout
+- Created on Flexbox & Grid
 - Adaptive layout
 - Parallax effect in header section
 
